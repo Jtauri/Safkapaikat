@@ -1,1 +1,1 @@
-export const APIKEY = 'testiavain'
+export const APIKEY = ''

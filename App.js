@@ -52,6 +52,7 @@ export default function App() {
       } catch (error) {
         console.error(error)
         setStatusMessage('Error fetching restaurants.')
+        setRestaurants([])
       }
     } else {
       statusMessage('Waiting for location...')
